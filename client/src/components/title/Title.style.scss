@@ -1,0 +1,59 @@
+.title-container {
+    transform: translateY(-100px);
+    color: var(--gray);
+    @media screen and (min-width:481px) and (min-width: 769px){
+      transform: translateY(-0px);
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+    @media screen and (max-width: 480px){
+      transform: translateY(-200px);
+      
+    }
+  & .title-text-developer {
+      letter-spacing: 20px;
+      font-size: 30px;
+    @media screen and (min-width: 769px) {
+      width: 70%;
+      position: absolute;
+      top: -30px;
+      left: 15%;
+    }
+    @media screen and (max-width: 481px) {
+      font-size: 20px;
+
+    }
+    
+  }
+  & .title-text-gamer {
+      letter-spacing: 20px;
+      font-size: 30px;
+      @media screen and (min-width: 769px) {
+        height: 70%;
+        position: absolute;
+        left: 15px;
+        top: 15%;
+        transform: rotate(-90deg);
+      }
+      @media screen and (max-width: 481px) {
+      font-size: 20px;
+
+    }
+  }
+  & .title-text-freelancer {
+      font-size: 30px;
+      letter-spacing: 20px;
+    @media screen and (min-width: 769px) {
+      width: 94%;
+      position: absolute;
+      left: 3%;
+      bottom: -30px;
+      transform: rotate(-180deg);
+    }
+    @media screen and (max-width: 481px) {
+      font-size: 20px;
+
+    }
+  }
+}

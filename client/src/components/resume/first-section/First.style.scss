@@ -1,0 +1,160 @@
+.resume-education {
+  position: relative;
+  width: 100%;
+  padding-bottom: 70px;
+  margin-bottom: 50px;
+  &::before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-1px);
+    background-color: var(--darkGray);
+    z-index: 1;
+    @media screen and (max-width:481px){
+      left:40px;
+      transform: translateX(0px);
+    }
+  }
+  & .resume-title{
+    position: relative;
+    width: 30%;
+    height: 45px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    background-color: var(--light);
+    &::before{
+        top: 0px;
+    }
+    &::after{
+        bottom: 0px;
+    }
+    &::after,
+    ::before{
+        left: 50%;
+        content: '';
+        position: absolute;
+        width: 200px;
+        height: 4px;
+        transform: translateX(-100px);
+        background-color: var(--darkGray);
+        z-index: 10;
+    }
+  }
+  & .resume-education-items1,.resume-education-items2 {
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media screen and (max-width:481px){
+      flex-direction: column-reverse;
+      justify-content: flex-end;
+    }
+
+    
+    &::before {
+      position: absolute;
+      content: "";
+      width: 10px;
+      height: 10px;
+      left: 50%;
+      transform: translateX(-5px) rotate(-45deg);
+      background-color: var(--darkGray);
+      @media screen and (max-width:481px){
+        left: 40px;
+        transform: translateX(-4px) rotate(-45deg);
+
+      }
+    }
+    & .resume-education-item-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+      width: 50%;
+      @media screen and (max-width:481px){
+        width: 90%;
+       text-align: left;
+      }
+      
+      & .resume-education-item-left-text1{
+        font-size: 30px;
+        letter-spacing: 3px;
+        font-weight: 400;
+      }
+      & .resume-education-item-left-text2{
+        font-size: 20px;
+        letter-spacing: 3px;
+        font-weight: 300;
+
+      }
+      & .resume-education-item-left-text3{
+        font-size: 15px;
+        letter-spacing: 3px;
+        font-weight: 100;
+
+      }
+      & .resume-education-item-left-text1,
+      .resume-education-item-left-text2,
+      .resume-education-item-left-text3 {
+        width: 100%;
+        margin-right: 30px;
+        text-align: right;
+        @media screen and (max-width:481px) {
+          text-align: left;
+          margin-right: 0px;
+          
+        }
+      }
+    }
+    & .resume-education-item-right {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      width: 50%;
+      @media screen and (max-width:481px) {
+        width: 90%;
+      }
+      & .resume-education-item-right-text1{
+        font-size: 30px;
+        letter-spacing: 3px;
+        font-weight: 400;
+      }
+      & .resume-education-item-right-text2{
+        font-size: 20px;
+        letter-spacing: 3px;
+        font-weight: 300;
+
+      }
+      & .resume-education-item-right-text3{
+        font-size: 15px;
+        letter-spacing: 3px;
+        font-weight: 100;
+
+      }
+      & .resume-education-item-right-text1,
+      .resume-education-item-right-text2,
+      .resume-education-item-right-text3 {
+        margin-left: 30px;
+        text-align: left;
+        @media screen and (max-width:481px) {
+          margin-left: 0px;
+          
+        }
+      }
+    }
+  }
+  & .resume-education-items2{
+    flex-direction: row-reverse;
+    @media screen and (max-width:481px) {
+      flex-direction: column-reverse;
+      
+    }
+  }
+}

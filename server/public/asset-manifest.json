@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fe55c09a.css",
+    "main.js": "/static/js/main.0269722f.js",
+    "static/js/787.ff35564e.chunk.js": "/static/js/787.ff35564e.chunk.js",
+    "static/media/AMIR MABOOD-CV.pdf": "/static/media/AMIR MABOOD-CV.8575d9272a364b650936.pdf",
+    "static/media/bg.jpg": "/static/media/bg.c5d3ae445659f6969a41.jpg",
+    "static/media/Amir.jpeg": "/static/media/Amir.fb26dc9aa60735805772.jpeg",
+    "index.html": "/index.html",
+    "main.fe55c09a.css.map": "/static/css/main.fe55c09a.css.map",
+    "main.0269722f.js.map": "/static/js/main.0269722f.js.map",
+    "787.ff35564e.chunk.js.map": "/static/js/787.ff35564e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe55c09a.css",
+    "static/js/main.0269722f.js"
+  ]
+}

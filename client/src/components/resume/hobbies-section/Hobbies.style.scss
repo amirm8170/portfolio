@@ -1,0 +1,33 @@
+.resume-second-container {
+  text-align: center;
+  width: 100%;
+  // padding: 40px auto;
+  background-color: var(--platin);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  & .resume-second-title {
+    margin: 50px auto;
+    font-size: 40px;
+    letter-spacing: 10px;
+  }
+  & .resume-hobbies-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    & .resume-hobbies {
+      width: 140px;
+      margin: 15px auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      @media screen and (max-width:481px){
+        margin: 30px 10px;
+      }
+    }
+  }
+}

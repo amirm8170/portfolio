@@ -1,0 +1,9 @@
+.skills-slide{
+    width: 100px;
+    margin-bottom: 15px;
+    transition: .4s;
+    cursor: pointer;
+    &:hover{
+      transform: translateY(-20px);
+    }
+  }
